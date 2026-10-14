@@ -1,6 +1,6 @@
 # LC SQL
 
-My solutions to LeetCode SQL problems.
+My solutions to LeetCode SQL problems. practice to keep sharp
 
 ## Structure
 
