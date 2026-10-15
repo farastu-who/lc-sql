@@ -5,7 +5,15 @@
 
       Solution -
       # Write your MySQL query statement below
-SELECT product_id
-FROM Products
-WHERE low_fats = 'Y' AND recyclable = 'Y'
-      
+    SELECT product_id
+    FROM Products
+    WHERE low_fats = 'Y' AND recyclable = 'Y'
+
+584. Find Customer Referee
+     Link - https://leetcode.com/problems/find-customer-referee/description/
+
+     Solution -
+     # Write your MySQL query statement below
+    SELECT name
+    FROM Customer
+    WHERE referee_id != 2 OR referee_id IS NULL
